@@ -1,9 +1,12 @@
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>React Firebase Chat App</title>
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
-</html>
+// index.js
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
