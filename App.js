@@ -1,7 +1,7 @@
 // App.js
 import React from "react";
 import Login from "./components/Login";
-import Logout from "./components/Logout";
+import Logout from "./components/LogOut";
 import Chat from "./components/Chat";
 
 const App = () => {
